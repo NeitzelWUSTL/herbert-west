@@ -1,9 +1,21 @@
 html {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Width and height will be calculated by adding border + padding + content; NOT just content, which is the stupid default */
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* underline style */
+a {
+  text-decoration-skip-ink: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -19,6 +31,19 @@ nav {
 nav svg {
   height: 50px;
   width: auto;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+  background-color: #70bc4e;
+  color: white;
+  padding: 1em .5em;
+}
+
+.breadcrumb > a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Footer */
