@@ -10,15 +10,6 @@ a {
   text-decoration-skip-ink: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
-}
-
 /* Navigation */
 
 nav {
@@ -50,8 +41,8 @@ nav svg {
 
 /* <footer> is flex container for 3 sections */
 footer {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  /* margin-top: 1rem; */
+  /* padding-top: 1rem; */
   border-top: 1px solid #70bc4e;
   /* Turns all direct children inside footer into flex items*/
   /* display: flex; */
@@ -63,15 +54,14 @@ footer {
 }
 
 /* <section>s are flex items inside <footer> */
-footer > section {
-  background-color: pink;
-  /* By default, all flex items shrink, which is equivalent to 1 (1 means to this, 0 means don't)*/
-  /* flex-shrink: 1; */
-  /* By default, flex items don't grow; now they grow to fill up all additional space */
-  /* flex-grow: 1; */
-  /* By default, flex items do not grow (or shrink) proportionally; now they all grow proportionally so they're all the same size */
-  /* flex-basis: 0; */
-}
+/* footer > section { */
+/* By default, all flex items shrink, which is equivalent to 1 (1 means to this, 0 means don't)*/
+/* flex-shrink: 1; */
+/* By default, flex items don't grow; now they grow to fill up all additional space */
+/* flex-grow: 1; */
+/* By default, flex items do not grow (or shrink) proportionally; now they all grow proportionally so they're all the same size */
+/* flex-basis: 0; */
+/*}*/
 
 footer svg {
   width: 50px;
