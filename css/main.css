@@ -1,67 +1,25 @@
-html {
-  font-size: 16px;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* Width and height will be calculated by adding border + padding + content; NOT just content, which is the stupid default */
-  box-sizing: border-box;
+/* Hero */
+
+.hero {
+  background-image: url("/images/home/garden.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 100vw;
+
 }
 
-/* Underline style */
-a {
-  text-decoration-skip-ink: auto;
-}
 
-/* Navigation */
-
-nav {
-  height: 50px;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #70bc4e;
-}
-
-nav svg {
-  height: 50px;
-  width: auto;
-}
-
-/* Breadcrumb */
-
-.breadcrumb {
-  background-color: #70bc4e;
-  color: white;
-  padding: 1em .5em;
-}
-
-.breadcrumb > a {
-  color: white;
-  text-decoration: none;
+.services {
+  background-image: url("/images/services/services.webp");
 }
 
 /* Footer */
 
-/* <footer> is flex container for 3 sections */
 footer {
-  /* margin-top: 1rem; */
-  /* padding-top: 1rem; */
   border-top: 1px solid #70bc4e;
-  /* Turns all direct children inside footer into flex items*/
-  /* display: flex; */
-  /* By default, all flex items lay out in a row left to right */
-  /* flex-direction: row */
-  /* Put a small gap between each flex item column */
-  /* column-gap: 1rem; */
-
 }
-
-/* <section>s are flex items inside <footer> */
-/* footer > section { */
-/* By default, all flex items shrink, which is equivalent to 1 (1 means to this, 0 means don't)*/
-/* flex-shrink: 1; */
-/* By default, flex items don't grow; now they grow to fill up all additional space */
-/* flex-grow: 1; */
-/* By default, flex items do not grow (or shrink) proportionally; now they all grow proportionally so they're all the same size */
-/* flex-basis: 0; */
-/*}*/
 
 footer svg {
   width: 50px;
