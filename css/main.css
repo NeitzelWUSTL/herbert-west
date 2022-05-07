@@ -1,3 +1,30 @@
+/* Navbar */
+
+/* Compound selector */
+nav.navbar.bg-success {
+  background: linear-gradient(90deg, #111 0%, hsl(150, 70%, 31%) 100%) !important;
+}
+
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
+
+.navbar .navbar-collapse .navbar-nav .active {
+  background-color: white;
+  color: hsl(150, 70%, 31%);
+}
+
+.navbar .btn-outline-success {
+  color: white;
+  border-color: white;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: white;
+  color: hsl(150, 70%, 31%);
+}
+
 /* Hero */
 
 .hero {
@@ -10,8 +37,34 @@
 
 }
 
+.hero > .container-fluid {
+  /* Use flexbox to center align vertically */
+  align-items: center;
+  height: 100%;
+}
+
+.hero > .container-fluid > h1 {
+  text-shadow: 0 0 5px black, 0 0 10px black;
+}
+
+.home {
+  height: 80vh;
+}
+
+/* Smaller height for xs and sm viewport */
+@media (max-width: 767px) {
+  .home {
+    height: 30vh;
+  }
+}
+
 .services {
   background-image: url("/images/services/services.webp");
+}
+
+/* Cards */
+.cards-hanging .card-text {
+  text-indent: -.4em;
 }
 
 /* Footer */
